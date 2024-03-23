@@ -10,7 +10,7 @@ class ScanQRCode extends StatefulWidget {
 }
 
 class _ScanQRCodeState extends State<ScanQRCode> {
-  String qrResult = 'Sacanned Data will appear her';
+  String qrResult = 'Sacanned Data';
   Future<void> scanQR() async {
     try {
       final qrCode = await FlutterBarcodeScanner.scanBarcode(
